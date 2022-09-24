@@ -1,0 +1,174 @@
+/* import fonts from fonts.css file */
+@import url(./font.css);
+
+/*  css variables*/
+@import url(./partials/Variable.css);
+
+/* import global styling */
+@import url(./partials/_global.css);
+
+/* start navigation */
+.header_area .main-menu .navbar .navbar-brand {
+  padding: 0 2rem 0 2rem;
+}
+
+nav.navbar {
+  padding: 1rem 10rem;
+}
+
+a.nav-link {
+  font: normal 500 15px/2px var(--roboto);
+  text-transform: uppercase;
+  font-weight: 700;
+  margin: 1.7rem;
+  font-size: 18px;
+  color: var(--title-color);
+}
+
+.active a {
+  background: var(--gradient-color);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.active a :hover {
+  background: var(--gradient-color);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* end navigation */
+
+/* Banner Area */
+* {
+  background-color: #fff9ca;
+}
+
+.title-text {
+  padding-top: 35%;
+  font-weight: 500;
+}
+
+.title-text::after {
+  content: "";
+  height: 2px;
+  width: 18vw;
+  background: black;
+  display: inline-block;
+  margin-left: 5%;
+  transform: translate(-10px);
+}
+
+h1.title-text-uppercase {
+  font-size: 5rem;
+}
+h4.title-text-uppercase {
+  font-size: 1.5rem;
+}
+
+.img-fluid {
+  width: 600px;
+  border-radius: 300px;
+  margin-top: 50px;
+}
+#img-fluid {
+  width: 500px;
+  margin-top: 200px;
+  margin-bottom: 100px;
+  margin-left: 100px;
+  margin-right: 100px;
+
+  border-radius: 100px;
+}
+
+/* End Banner area */
+
+/* Start  About area */
+.text-uppercase span {
+  display: block;
+  font: normal bold 49px/60px Noto Sans JP;
+  letter-spacing: 21px;
+}
+.paragraph > p {
+  padding: 0rem 0;
+}
+
+.single-brand img {
+  width: 150px;
+}
+/* Start Brand Area */
+.site.main.brand-area {
+  padding: 1rem 20rem;
+  margin-bottom: 4rem;
+}
+
+.site.main.brand-area.first-row.col-lg-4 {
+  display: flex;
+  justify-content: center;
+}
+
+.single-brand {
+  border: 1px solid transparent;
+  text-align: center;
+  padding: 0.2rem 0rem;
+  margin: 3rem 0;
+  width: 180px;
+  height: 100px;
+  cursor: pointer;
+  transition: transform 0.4s ease;
+}
+.single-brand {
+  width: 50%;
+}
+.single-brand:hover {
+  box-shadow: var(--box-shadow);
+  transform: scale(1.1);
+}
+.single-brand:hover > img {
+  filter: brightness(1);
+}
+
+.experience-area {
+  padding: 1rem;
+}
+
+.experience-area span {
+  display: block;
+}
+
+.years-area {
+  background: url();
+  padding: 2rem 0;
+  width: 40rem;
+  height: 18rem;
+  padding-left: 8rem;
+  position: relative;
+}
+
+.bg-panel {
+  position: absolute;
+  left: -190px;
+  top: 0%;
+  background: #e029290a;
+  width: 400px;
+  height: 400px;
+  margin-left: 340px;
+  z-index: -1;
+}
+
+#Kela {
+  font: normal bold 84px/40px var(--roboto);
+  color: var(--primary-color2);
+  z-index: 2;
+}
+
+.years-area h2 > span {
+  font: normal 600 22px/30px var(--roboto);
+}
+
+.call-area {
+  padding-left: 10rem;
+}
+
+/* End Brand Area */
